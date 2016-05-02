@@ -5,9 +5,9 @@ A small extension to the Javascript Promise API to avoid those nasty swallowed e
 
 
 ## Example
-´´´
+```javascript
 new Promise(function (resolve, reject) {
 	fail(); // call undefined function
 });
-´´´
+```
 The above example will not call the build-in ´´´window.onerror´´´ handler. Some browser will however write a message in the console.
