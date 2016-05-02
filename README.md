@@ -5,7 +5,7 @@ A small extension to the Javascript Promise API to avoid those nasty swallowed e
 
 
 ## Example
-´´´javascript
+´´´
 new Promise(function (resolve, reject) {
 	fail(); // call undefined function
 });
